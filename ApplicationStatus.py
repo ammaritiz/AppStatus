@@ -146,7 +146,7 @@ select = Select(driver.find_element_by_id("dobDay"))
 select.select_by_visible_text("") #DOBday
 select = Select(driver.find_element_by_id("dobYear"))
 select.select_by_visible_text("") #DOByear
-driver.find_element_by_id("genderCode").click() #If you are a female, change id to gencode1
+driver.find_element_by_id("genderCode").click() #If you are a female, change id to genderCode1
 driver.find_element_by_id("submitBtn").send_keys(Keys.RETURN)
 print("RUTGERS : ")
 try:
